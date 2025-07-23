@@ -21,7 +21,7 @@ function FlashcardScreen({navigation}) {
         if (data !== null) {
           setFlashcards(JSON.parse(data));
         } else {
-          // Default flashcards if none are saved yet
+          // Default flashcards if none have been saved yet
           setFlashcards([
             { question: 'This is a sample flashcard.\nPress "Reveal" to see the answer.', answer: 'Good job!\nNow you can add your own flashcards and delete this one.' },
           ]);
